@@ -42,7 +42,7 @@ public class RedditHttpClient extends RedditClient {
         this.userAgent = userAgent;
         this.httpClient = httpClient;
     }
-    
+
     @Override
     public String post(RedditToken rToken, RedditPostRequest redditRequest) {
         
